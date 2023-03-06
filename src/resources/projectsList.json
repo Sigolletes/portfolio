@@ -1,5 +1,7 @@
-{
-  "phonebook": {
+[
+  { 
+    "id": 0,
+    "name": "phonebook",
     "url": "https://part3-2.onrender.com/",
     "course": "Full Stack Open",
     "technologies": {
@@ -26,4 +28,4 @@
       }
     }
   }
-}
+]
