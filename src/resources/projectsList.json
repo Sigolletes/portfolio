@@ -1,0 +1,29 @@
+{
+  "phonebook": {
+    "url": "https://part3-2.onrender.com/",
+    "course": "Full Stack Open",
+    "technologies": {
+      "frontend": [
+        "react.js",
+        "CSS"
+      ],
+      "backend": [
+        "Node.js",
+        "express"
+      ],
+      "database": "MongoDB",
+      "other technologies": {
+        "production": [
+          "cors",
+          "dotenv",
+          "mongoose",
+          "morgan"
+        ],
+        "development": [
+          "eslint",
+          "nodemon"
+        ]
+      }
+    }
+  }
+}

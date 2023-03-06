@@ -1,6 +1,5 @@
 {
   "homepage": "http://Sigolletes.github.io/portfolio",
-
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -40,6 +39,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^5.0.0"
+    "gh-pages": "^5.0.0",
+    "react-router-dom": "^6.8.2"
   }
 }
