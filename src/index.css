@@ -73,3 +73,16 @@ a:hover {
   height: 300px;
   border-radius: 50%;
 }
+
+.someProject {
+  display: grid;
+  grid-template-rows: 250px 50px;
+  
+  
+}
+
+.someProject img {
+  width: 250px;
+  height: 250px;
+
+}

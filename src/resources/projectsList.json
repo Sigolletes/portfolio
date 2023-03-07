@@ -1,9 +1,40 @@
 [
   { 
     "id": 0,
-    "name": "phonebook",
+    "name": "PHONEBOOK",
     "url": "https://part3-2.onrender.com/",
     "course": "Full Stack Open",
+    "image": "phonebook.png",
+    "technologies": {
+      "frontend": [
+        "react.js",
+        "CSS"
+      ],
+      "backend": [
+        "Node.js",
+        "express"
+      ],
+      "database": "MongoDB",
+      "other technologies": {
+        "production": [
+          "cors",
+          "dotenv",
+          "mongoose",
+          "morgan"
+        ],
+        "development": [
+          "eslint",
+          "nodemon"
+        ]
+      }
+    }
+  },
+  { 
+    "id": 1,
+    "name": "LIBRARY",
+    "url": "https://sigolletes.github.io/library_2/",
+    "course": "Odin Project",
+    "image": "phonebook.png",
     "technologies": {
       "frontend": [
         "react.js",

@@ -13,9 +13,9 @@ const Presentation = () => {
 
 const SomeProjects = () => {
 	return projectsList.map(project => 
-		<div key={project.id}>
-			<h3>{project.name}</h3>
-			<a href={project.url} target="_blank" ><img src={require("../images/test.jpg")} alt=""  /></a>
+		<div className="someProject" key={project.id}>
+			<img src={require(`../images/${project.image}`)} alt="" />
+			<a href={project.url} target="_blank" rel="noreferrer" >PHONEBOOK</a>
 		</div>	
 	)
 }
