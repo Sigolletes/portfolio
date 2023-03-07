@@ -39,6 +39,7 @@
     ]
   },
   "devDependencies": {
+    "file-loader": "^6.2.0",
     "gh-pages": "^5.0.0",
     "react-router-dom": "^6.8.2"
   }

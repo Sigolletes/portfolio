@@ -1,5 +1,6 @@
 import projectsList from "../resources/projectsList";
 import skills from "../resources/skills.json";
+import { ReactComponent as Email } from "../images/icons/email.svg"
 
 const Presentation = () => {
 	return (
@@ -30,22 +31,40 @@ const Skills = () => {
 	)
 }
 
+const Contact = () => {
+	return (
+		<div>
+			<div className="contact">
+				<Email />
+				<p>webdevjudit@gmail.com</p>
+			</div>
+		</div>
+	)
+}
+
 const Home = () => {
 	return (
 		<>
 			<Presentation />
-			<div className="title">
+			<div className="title gradientYellow">
 				<h2>SOME PROJECTS</h2>
 			</div>
 			<div className="someProjectsContainer">
 				<SomeProjects />
 			</div>
-			<div className="title">
+			<div className="title gradient">
 				<h2>SKILLS</h2>
 			</div>
 			<div className="skillsContainer">
 				<Skills />
 			</div>
+			<div className="title gradientYellow">
+				<h2>CONTACT</h2>
+			</div>
+			<div className="contactContainer">
+				<Contact />
+			</div>
+			<div className="last gradientYellow"></div>
 		</>
 	);
 };
