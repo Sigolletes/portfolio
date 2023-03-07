@@ -95,18 +95,18 @@ a:hover {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
   justify-items: center;
-  column-gap: 25px;
-  row-gap: 25px;
+  gap: 25px;
   padding: 25px;
-  overflow-y: auto;
   border-bottom: 5px solid var(--color1);
 }
 
 .someProject {
   display: grid;
   grid-template-rows: 250px 50px;
-  border-radius: 20px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border: 3px double var(--color1);
+  box-shadow: var(--color2) 0px 5px 15px;
 }
 
 .someProject img {
@@ -118,6 +118,38 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+/* SKILLS */
+
+.skillsContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  grid-template-rows: repeat(auto-fill, minmax(165px, 1fr));
+  justify-items: center;
+  gap: 15px;
+  padding: 25px;
+}
+
+.skill {
+  border: 4px double var(--color1);
+  border-radius: 7px;
+  padding: 10px;
+}
+
+.skill img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  border-radius: 5px;
+}
+
+.skill p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color0);
+  margin-top: 5px;
 }
 
 /* SCROLLBAR ######################################################################################### */

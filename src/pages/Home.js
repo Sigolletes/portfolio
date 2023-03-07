@@ -1,4 +1,5 @@
 import projectsList from "../resources/projectsList";
+import skills from "../resources/skills.json";
 
 const Presentation = () => {
 	return (
@@ -21,9 +22,10 @@ const SomeProjects = () => {
 }
 
 const Skills = () => {
-	return (
-		<div>
-			
+	return skills.map(skill =>
+		<div className="skill" key={skill.id}>
+			<img src={require(`../images/logos/${skill.image}`)} alt="" />
+			<p>{skill.name}</p>
 		</div>
 	)
 }
@@ -41,7 +43,9 @@ const Home = () => {
 			<div className="title">
 				<h2>SKILLS</h2>
 			</div>
-			<Skills />
+			<div className="skillsContainer">
+				<Skills />
+			</div>
 		</>
 	);
 };

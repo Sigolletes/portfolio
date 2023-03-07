@@ -1,0 +1,32 @@
+[
+  {
+    "id": 0,
+    "name": "HTML",
+    "image": "html.png"
+  },
+  {
+    "id": 1,
+    "name": "CSS",
+    "image": "css.png"
+  },
+  {
+    "id": 2,
+    "name": "JavaScript",
+    "image": "js.png"
+  },
+  {
+    "id": 3,
+    "name": "Node",
+    "image": "node.png"
+  },
+  {
+    "id": 4,
+    "name": "Express",
+    "image": "express.png"
+  },
+  {
+    "id": 5,
+    "name": "MongoDB",
+    "image": "mongodb.png"
+  }
+]
