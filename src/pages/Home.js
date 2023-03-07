@@ -15,7 +15,7 @@ const SomeProjects = () => {
 	return projectsList.map(project => 
 		<div className="someProject" key={project.id}>
 			<img src={require(`../images/${project.image}`)} alt="" />
-			<a href={project.url} target="_blank" rel="noreferrer" >PHONEBOOK</a>
+			<a href={project.url} target="_blank" rel="noreferrer" >{project.name}</a>
 		</div>	
 	)
 }
@@ -32,7 +32,15 @@ const Home = () => {
 	return (
 		<>
 			<Presentation />
-			<SomeProjects />
+			<div className="title">
+				<h2>SOME PROJECTS</h2>
+			</div>
+			<div className="someProjectsContainer">
+				<SomeProjects />
+			</div>
+			<div className="title">
+				<h2>SKILLS</h2>
+			</div>
 			<Skills />
 		</>
 	);

@@ -34,29 +34,27 @@
     "name": "LIBRARY",
     "url": "https://sigolletes.github.io/library_2/",
     "course": "Odin Project",
-    "image": "phonebook.png",
+    "image": "library.png",
     "technologies": {
       "frontend": [
-        "react.js",
-        "CSS"
-      ],
-      "backend": [
-        "Node.js",
-        "express"
-      ],
-      "database": "MongoDB",
-      "other technologies": {
-        "production": [
-          "cors",
-          "dotenv",
-          "mongoose",
-          "morgan"
-        ],
-        "development": [
-          "eslint",
-          "nodemon"
-        ]
-      }
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    }
+  },
+  { 
+    "id": 2,
+    "name": "CAESAR CIPHER",
+    "url": "https://sigolletes.github.io/webpage_exerciseCS50/",
+    "course": "CS50",
+    "image": "caesar.png",
+    "technologies": {
+      "frontend": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
     }
   }
 ]
