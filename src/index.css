@@ -132,6 +132,7 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 18px;
 }
 
 /* SKILLS */
@@ -169,15 +170,15 @@ a:hover {
   margin-top: 5px;
 }
 
-/* CONTACT */
+/* CONTACT ######################################################################################### */
 
-.contactContainer {
+.contact {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-.contact {
+.contact div {
   display: flex;
   flex-direction: column;
   align-items: center;
