@@ -1,0 +1,283 @@
+[
+  {
+    "id": 0,
+    "name": "freeCodeCamp",
+    "courses": [
+      {
+        "name": "Responsive Web Design Certification",
+        "certification": "https://www.freecodecamp.org/certification/sigolletes/responsive-web-design",
+        "skills": [
+          "HTML", 
+          "CSS"
+        ]
+      },
+      {
+        "name": "JavaScript Algorithms and Data Structures Certification",
+        "certification": "https://www.freecodecamp.org/certification/sigolletes/javascript-algorithms-and-data-structures",
+        "skills": [
+          "JavaScript", 
+          "Algorithms", 
+          "OOP (Object Oriented Programming)", 
+          "FP (Functional Programming)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "name": "The Odin Project",
+    "courses": [
+      {
+        "name": "Foundations",
+        "skills": [
+          "VS Code",
+          "Git and GitHub",
+          "VirtualBox",
+          "CLI (Command Line Interface)",
+          "Networking basics",
+          "HTML",
+          "CSS",
+          "Flexbox",
+          "JavaScript",
+          "DOM manipulation"
+        ],
+        "finished": true
+      },
+      {
+        "name": "Intermediate HTML and CSS Course",
+        "skills": [
+          "Emmet",
+          "SVG",
+          "HTML",
+          "CSS",
+          "Grid",
+          "Form validation"
+        ],
+        "finished": true
+      },
+      {
+        "name": "JavaScript",
+        "skills": [
+          "JavaScript",
+          "Linting",
+          "Factory Functions",
+          "ES6 Modules",
+          "Webpack",
+          "OOP Principles",
+          "JSON",
+          "Asynchronous Code",
+          "API",
+          "CS",
+          "Computer Science",
+          "Recursive Methods",
+          "Time and Space Complexity",
+          "Testing",
+          "Advanced Git",
+          "React",
+          "React router",
+          "React testing",
+          "BaaS"
+        ],
+        "lessons": [
+          {
+            "name": "Introduction",
+            "finished": true
+          },
+          {
+            "name": "Organizing your JavaScript Code",
+            "finished": false
+          },
+          {
+            "name": "JavaScript in the Real World",
+            "finished": true
+          },
+          {
+            "name": "Asynchronous JavaScript and APIs",
+            "finished": false
+          },
+          {
+            "name": "A Bit of Computer Science",
+            "finished": false
+          },
+          {
+            "name": "Testing JavaScript",
+            "finished": false
+          },
+          {
+            "name": "Intermediate Git",
+            "finished": false
+          },
+          {
+            "name": "React JS",
+            "finished": false
+          },
+          {
+            "name": "JavaScript and the Backend",
+            "finished": false
+          },
+          {
+            "name": "Finishing Up with JavaScript",
+            "finished": false
+          }
+        ],
+        "finished": false
+      },
+      {
+        "name": "Advanced HTML and CSS",
+        "skills": [
+          "HTML",
+          "CSS",
+          "Keyframes",
+          "Web Accessibility",
+          "Responsive Design"
+        ],
+        "finished": false
+      },
+      {
+        "name": "NodeJS",
+        "skills": [
+          "NodeJS",
+          "MongoDB",
+          "Express",
+          "Mongoose",
+          "Authentication",
+          "API",
+          "API security",
+          "Testing"
+        ],
+        "finished": false
+      },
+      {
+        "name": "Getting Hired",
+        "skills": [
+          "Strategy"
+        ],
+        "finished": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Full Stack open",
+    "Courses": [
+      {
+        "name": "Part 0 - Fundamentals of Web apps",
+        "skills": [
+          "Fundamentals of Web development"
+        ],
+        "finished": true
+      },
+      {
+        "name": "Part 1 - Introduction to React",
+        "skills": [
+          "React",
+          "Component state",
+          "Debugging React apps"
+        ],
+        "finished": true
+      },
+      {
+        "name": "Part 2 - Communicating with server",
+        "skills": [
+          "React",
+          "Communicating with the backend",
+          "Axios",
+          "Json-server",
+          "Effect-hooks",
+          "REST",
+          "Promises"
+        ],
+        "finished": true
+      },
+      {
+        "name": "Part 3 - Programming a server with NodeJS and Express",
+        "skills": [
+          "Node.js",
+          "Express",
+          "Nodemon",
+          "VS Code REST client",
+          "Middleware",
+          "CORS",
+          "Render Server",
+          "Proxy",
+          "MongoDB",
+          "MongoDB Atlas",
+          "Mongoose",
+          "Frontend and Backend Integration",
+          "ESLint"
+        ],
+        "finished": true
+      },
+      {
+        "name": "Part 4 - Testing Express servers, user administration",
+        "skills": [
+
+        ],
+        "finished": false
+      },
+      {
+        "name": "Part 5 - Testing React apps",
+        "skills": [
+
+        ],
+        "finished": false
+      },
+      {
+        "name": "Part 6 - Advanced state management",
+        "skills": [
+
+        ],
+        "finished": false
+      },
+      {
+        "name": "Part 7 - React router, custom hooks, styling app with CSS and webpack",
+        "skills": [
+
+        ],
+        "finished": false
+      },
+      {
+        "name": "Part 8 - GraphQL",
+        "skills": [
+
+        ],
+        "finished": false
+      },
+      {
+        "name": "Part 9 - TypeScript",
+        "skills": [
+
+        ],
+        "finished": false
+      },
+      {
+        "name": "Part 10 - React Native",
+        "skills": [
+
+        ],
+        "finished": false
+      },
+      {
+        "name": "Part 11 - CI/CD",
+        "skills": [
+
+        ],
+        "finished": false
+      },
+      {
+        "name": "Part 12 - Containers",
+        "skills": [
+
+        ],
+        "finished": false
+      },
+      {
+        "name": "Part 13 - Using relational databases",
+        "skills": [
+
+        ],
+        "finished": false
+      }
+    ]
+  }
+]
