@@ -34,9 +34,9 @@ const Skills = () => {
 const Contact = () => {
 	return (
 		<div>
-			<div className="contact">
-				<Email />
-				<p>webdevjudit@gmail.com</p>
+			<div className="contact">		
+				<a href = "mailto: webdevjudit@gmail.com" target="_blank" rel="noreferrer" ><Email /></a>
+				<a href = "mailto: webdevjudit@gmail.com" target="_blank" rel="noreferrer" >webdevjudit@gmail.com</a>
 			</div>
 		</div>
 	)
@@ -52,7 +52,7 @@ const Home = () => {
 			<div className="someProjectsContainer">
 				<SomeProjects />
 			</div>
-			<div className="title gradient">
+			<div className="title gradientYellow">
 				<h2>SKILLS</h2>
 			</div>
 			<div className="skillsContainer">
