@@ -1,6 +1,6 @@
 import projectsList from "../resources/projectsList";
 import skills from "../resources/skills.json";
-import { ReactComponent as Email } from "../images/icons/email.svg"
+import Contact from "./Contact";
 
 const Presentation = () => {
 	return (
@@ -27,17 +27,6 @@ const Skills = () => {
 		<div className="skill" key={skill.id}>
 			<img src={require(`../images/logos/${skill.image}`)} alt="" />
 			<p>{skill.name}</p>
-		</div>
-	)
-}
-
-const Contact = () => {
-	return (
-		<div>
-			<div className="contact">		
-				<a href = "mailto: webdevjudit@gmail.com" target="_blank" rel="noreferrer" ><Email /></a>
-				<a href = "mailto: webdevjudit@gmail.com" target="_blank" rel="noreferrer" >webdevjudit@gmail.com</a>
-			</div>
 		</div>
 	)
 }

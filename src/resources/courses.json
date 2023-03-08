@@ -159,7 +159,7 @@
   {
     "id": 2,
     "name": "Full Stack open",
-    "Courses": [
+    "courses": [
       {
         "name": "Part 0 - Fundamentals of Web apps",
         "skills": [
@@ -211,72 +211,132 @@
       {
         "name": "Part 4 - Testing Express servers, user administration",
         "skills": [
-
+          "Node.js",
+          "Unit and integration tests",
+          "Testing backend",
+          "User administration",
+          "Token authentication"
         ],
         "finished": false
       },
       {
         "name": "Part 5 - Testing React apps",
         "skills": [
-
+          "Login in frontend",
+          "props.children and proptypes",
+          "Testing React apps",
+          "Token authentication"
         ],
         "finished": false
       },
       {
         "name": "Part 6 - Advanced state management",
         "skills": [
-
+          "Flux-architecture",
+          "Redux",
+          "React Query",
+          "useReducer"
         ],
         "finished": false
       },
       {
         "name": "Part 7 - React router, custom hooks, styling app with CSS and webpack",
         "skills": [
-
+          "React Router",
+          "Custom hooks",
+          "Webpack",
+          "Class components"
         ],
         "finished": false
       },
       {
         "name": "Part 8 - GraphQL",
         "skills": [
-
+          "GraphQL-server",
+          "React",
+          "Database and user administration",
+          "Login and updating the cache",
+          "Fragments and subscriptions"
         ],
         "finished": false
       },
       {
         "name": "Part 9 - TypeScript",
         "skills": [
-
+          "TypeScript",
+          "Express app",
+          "React"
         ],
         "finished": false
       },
       {
         "name": "Part 10 - React Native",
         "skills": [
-
+          "React Native",
+          "Testing and extending"
         ],
         "finished": false
       },
       {
         "name": "Part 11 - CI/CD",
         "skills": [
-
+          "CI/CD",
+          "GitHub Actions",
+          "Deployment"
         ],
         "finished": false
       },
       {
         "name": "Part 12 - Containers",
         "skills": [
-
+          "Containers",
+          "Building and configuring environments",
+          "Basics of Orchestration"
         ],
         "finished": false
       },
       {
         "name": "Part 13 - Using relational databases",
         "skills": [
-
+          "Relational databases",
+          "Migrations"
         ],
         "finished": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "CS50",
+    "courses": [
+      {
+        "name": "CS50's Understanding Technology",
+        "certification": "CS50-UT.png",
+        "skills": [
+          "Internet",
+          "Multimedia",
+          "Security",
+          "Web development",
+          "Programming"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "CISCO",
+    "courses": [
+      {
+        "name": "Introducción a Cisco Packet Tracer",
+        "skills": [
+          "Cisco Packet Tracer"
+        ]
+      },
+      {
+        "name": "Introducción a la Ciberseguridad",
+        "skills": [
+          "Ciberseguridad"
+        ]
       }
     ]
   }
