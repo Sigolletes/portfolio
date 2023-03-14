@@ -5,7 +5,7 @@
     "courses": [
       {
         "name": "Responsive Web Design Certification",
-        "certification": "https://www.freecodecamp.org/certification/sigolletes/responsive-web-design",
+        "certification": "freeCodeCamp_ResponsiveWebDesign.png",
         "skills": [
           "HTML", 
           "CSS"
@@ -13,7 +13,7 @@
       },
       {
         "name": "JavaScript Algorithms and Data Structures Certification",
-        "certification": "https://www.freecodecamp.org/certification/sigolletes/javascript-algorithms-and-data-structures",
+        "certification": "freeCodeCamp_JavaScriptAlgorithms.png",
         "skills": [
           "JavaScript", 
           "Algorithms", 

@@ -230,3 +230,12 @@ svg {
   ::-webkit-scrollbar-corner {
 	background: rgba(0,0,0,0);
   }
+
+
+
+/* ROADMAP ######################################################################################### */
+
+.roadmap img {
+  width: 200px;
+  height: auto;
+}
