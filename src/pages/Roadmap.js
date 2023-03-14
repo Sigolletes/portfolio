@@ -1,10 +1,14 @@
+import { useState } from 'react'
 import courses from "../resources/courses";
 
-/* const RenderCourses = (center) => {
+const RenderCourses = (center) => {
   return center.map(course =>
-
+      <div key={course.name}>
+        <h3>{course.name}</h3>
+        <Certification course={course} />
+      </div>
   );
-} */
+}
 
 const Certification = ({course}) => {
   if (course.certification) {
@@ -19,27 +23,20 @@ const Certification = ({course}) => {
 }
 
 const RenderSchools = () => {
+  const showHide = () => {
+    
+  }
+
   return courses.map(center => 
     <div key={center.id}>
       <h2>{center.name}</h2>
-      
-      {center.courses.map(course => {
-        return (
-          <div key={course.name}>
-            <h3>{course.name}</h3>
-            <Certification course={course} />
-          </div>
-        )
-      })}
-      
-
-     {/*  <RenderCourses center={center} /> */}
-
+      <button type="button" onClick={() => {showHide()}}></button>
     </div>
   )
 }
 
 const Roadmap = () => {
+
   return (
     <div className="roadmap">
       <h1>ROADMAP</h1>
