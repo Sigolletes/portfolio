@@ -1,5 +1,6 @@
 import { ReactComponent as Foundations } from "../images/coursesImages/top-foundations.svg";
 import { ReactComponent as Intermediate } from "../images/coursesImages/top-intermediate.svg";
+import Contact from "./Contact";
 
 const Roadmap = () => {
   return (
@@ -94,6 +95,10 @@ const Roadmap = () => {
           </ul>
         </div>
 
+      </div>
+
+      <div>
+        <Contact />
       </div>
 
     </div>

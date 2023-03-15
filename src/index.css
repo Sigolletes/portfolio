@@ -36,6 +36,7 @@ body {
   position: fixed; 
   top: 0; 
   width: 100%; 
+  z-index: 2;
 }
 
 nav ul {
@@ -44,7 +45,6 @@ nav ul {
   align-content: center;
   justify-content: center;
   padding: 20px;
-/*   border-bottom: 10px double var(--color1); */
 }
 
 nav ul li {
@@ -202,7 +202,7 @@ a:hover {
   color: var(--color3);
 }
 
-svg {
+.contact svg {
   filter: invert(90%) sepia(13%) saturate(213%) hue-rotate(188deg) brightness(102%) contrast(96%);
   width: 70px;
   height: auto;
@@ -248,8 +248,9 @@ svg {
   background-color: var(--color4);
   color: var(--color0);
 }
+
 .finished-certified, .finished-other {
-  /* padding: 50px 30px; */
+  padding: 0 20px;
 }
 
 .roadmap h1 {
@@ -266,13 +267,16 @@ svg {
   justify-items: center;
   align-items: center;
   text-align: center;
-  padding: 100px 50px;
+  padding: 100px 30px;
   column-gap: 50px;
   row-gap: 3px;
 }
 
-.finished-certified > div:not(:last-child) {
-  border-bottom: 1px solid var(--color0);
+.finished-certified > div:not(:last-child), .finished-other > div {
+ /*  border-bottom: 1px solid var(--color0); */
+ border-bottom: 2px solid transparent;
+ border-image: linear-gradient(0.25turn, var(--color1), var(--color0), var(--color1));
+ border-image-slice: 1;
 }
 
 .finished-certified h2 {
@@ -300,8 +304,45 @@ svg {
   grid-area: 1 / 2 / 5 / 3;
   width: 200px;
   height: auto;
+  border: 5px double var(--color3);
 }
 
-.finished-others {
+.finished-other > div {
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  padding: 100px 30px;
+  row-gap: 5px;
+}
 
+.finished-other > div > div {
+  display: grid;
+  grid-template-rows: 3fr 1fr;
+  align-items: center;
+  justify-items: center;
+  gap: 10px;
+}
+
+.finished-other h3 {
+  color: var(--color3);
+  font-style: italic;
+  padding-bottom: 40px;
+}
+
+.finished-other ul {
+  color: var(--color5);
+}
+
+.finished-other svg {
+  filter: invert(90%) sepia(13%) saturate(213%) hue-rotate(188deg) brightness(102%) contrast(96%);
+  width: 100px;
+  height: auto;
+  z-index: 1;
+}
+
+.finished-other img {
+  width: 100px;
+  height: auto;
 }
