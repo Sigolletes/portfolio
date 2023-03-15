@@ -5,29 +5,13 @@
     "url": "https://part3-2.onrender.com/",
     "course": "Full Stack Open",
     "image": "phonebook.png",
-    "technologies": {
-      "frontend": [
-        "react.js",
-        "CSS"
-      ],
-      "backend": [
-        "Node.js",
-        "express"
-      ],
-      "database": "MongoDB",
-      "other technologies": {
-        "production": [
-          "cors",
-          "dotenv",
-          "mongoose",
-          "morgan"
-        ],
-        "development": [
-          "eslint",
-          "nodemon"
-        ]
-      }
-    }
+    "technologies": [
+        "React",
+        "CSS",
+        "Node",
+        "Express",
+        "MongoDB"
+    ]
   },
   { 
     "id": 1,
@@ -35,13 +19,11 @@
     "url": "https://sigolletes.github.io/library_2/",
     "course": "Odin Project",
     "image": "library.png",
-    "technologies": {
-      "frontend": [
+    "technologies": [
         "HTML",
         "CSS",
         "JavaScript"
-      ]
-    }
+    ]
   },
   { 
     "id": 2,
@@ -49,12 +31,10 @@
     "url": "https://sigolletes.github.io/webpage_exerciseCS50/",
     "course": "CS50",
     "image": "caesar.png",
-    "technologies": {
-      "frontend": [
+    "technologies": [
         "HTML",
         "CSS",
         "JavaScript"
-      ]
-    }
+    ]
   }
 ]

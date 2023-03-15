@@ -18,7 +18,7 @@
   --color5: #b1bfe3; 
 
   --gradient1: linear-gradient(90deg, rgba(123,131,149,1) 0%, rgba(181,188,201,1) 20%, rgba(231,237,250,1) 40%, rgba(231,237,250,1) 50%, rgba(231,237,250,1) 60%, rgba(181,188,201,1) 80%, rgba(123,131,149,1) 100%);
-  --gradient2: linear-gradient(90deg, rgba(31,51,103,1) 0%, rgba(12,30,75,1) 10%, rgba(4,18,52,1) 50%, rgba(12,30,75,1) 90%, rgba(31,51,103,1) 100%);
+  
   --gradient3: linear-gradient(90deg, rgba(4,18,52,1) 0%, rgba(104,126,177,1) 10%, rgba(148,166,207,1) 15%, rgba(255,255,255,1) 50%, rgba(148,166,207,1) 85%, rgba(104,126,177,1) 90%, rgba(4,18,52,1) 100%);
 }
 
@@ -40,10 +40,9 @@ body {
 }
 
 nav ul {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  align-content: center;
-  justify-content: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
   padding: 20px;
 }
 
@@ -105,7 +104,7 @@ a:hover {
 }
 
 .someProjectsContainer {
-  background: var(--gradient2);
+  background-color: var(--color4);
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -144,7 +143,7 @@ a:hover {
 /* SKILLS */
 
 .skillsContainer {
-  background: var(--gradient2);
+  background-color: var(--color4);
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -177,6 +176,7 @@ a:hover {
 /* CONTACT ######################################################################################### */
 
 .contact {
+  background-color: var(--color4);
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -245,12 +245,12 @@ a:hover {
 
 .roadmap {
   padding-top: 70px;
-  background-color: var(--color4);
   color: var(--color0);
 }
 
 .finished-certified, .finished-other {
   padding: 0 20px;
+  background-color: var(--color4);
 }
 
 .roadmap h1 {
@@ -273,7 +273,6 @@ a:hover {
 }
 
 .finished-certified > div:not(:last-child), .finished-other > div {
- /*  border-bottom: 1px solid var(--color0); */
  border-bottom: 2px solid transparent;
  border-image: linear-gradient(0.25turn, var(--color1), var(--color0), var(--color1));
  border-image-slice: 1;
@@ -346,3 +345,60 @@ a:hover {
   width: 100px;
   height: auto;
 }
+
+
+/* PROJECTS ######################################################################################### */
+
+.projects {
+  padding-top: 70px;
+  color: var(--color0);
+}
+
+.projects h1 {
+  background: url(./images/portfolio2.png);
+  padding: 40px 20px;
+  color: var(--color0);
+  text-align: center;
+  padding: ;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color4);
+  border-bottom: 2px solid transparent;
+  border-image: linear-gradient(0.25turn, var(--color1), var(--color0), var(--color1));
+  border-image-slice: 1;
+  padding: 60px 30px;
+  align-items: center;
+  gap: 2px;
+}
+
+.project a {
+  color: var(--color0);
+  font-size: 25px;
+}
+
+.project h3 {
+  color: var(--color3);
+  font-style: italic;
+}
+
+.project img {
+  width: 300px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  border: 7px double var(--color3);
+}
+
+.project h2 {
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.techList {
+  text-align: center;
+  color: var(--color5);
+  font-size: 17px;
+}
+

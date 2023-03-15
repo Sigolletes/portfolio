@@ -3,7 +3,6 @@ import Layout from "./pages/Layout";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Roadmap from "./pages/Roadmap";
-import Blog from "./pages/Blog";
 import NoPage from "./pages/NoPage";
 
 export default function App() {
@@ -15,7 +14,6 @@ export default function App() {
           <Route path="portfolio" element={<Home />} />
           <Route path="projects" element={<Projects />} />
           <Route path="roadmap" element={<Roadmap />} />
-          <Route path="blog" element={<Blog />} />
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>
