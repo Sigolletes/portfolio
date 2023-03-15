@@ -14,7 +14,7 @@ const RenderProjects = () => {
       <h2>TECHNOLOGIES</h2>  
       <div className="techList">
         { project.technologies.map((tech) => {
-          return <p>{tech}</p>;
+          return <p key={tech}>{tech}</p>;
         }) }
       </div>
 
@@ -28,8 +28,10 @@ const Projects = () => {
 
       <h1>PROJECTS</h1>
 
-      <RenderProjects />
-
+      <div className="projectsContainer">
+        <RenderProjects />
+      </div>
+      
       <Contact />
 
     </div>

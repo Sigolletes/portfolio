@@ -140,6 +140,7 @@ a:hover {
 
 .projectName {
   padding-top: 20px;
+  text-align: center;
 }
 
 /* SKILLS */
@@ -356,18 +357,20 @@ a:hover {
   color: var(--color0);
 }
 
+.projectsContainer {
+  background-color: var(--color4);
+}
+
 .projects h1 {
   background: url(./images/portfolio2.png);
   padding: 40px 20px;
   color: var(--color0);
   text-align: center;
-  padding: ;
 }
 
 .project {
   display: flex;
   flex-direction: column;
-  background-color: var(--color4);
   border-bottom: 2px solid transparent;
   border-image: linear-gradient(0.25turn, var(--color1), var(--color0), var(--color1));
   border-image-slice: 1;
@@ -388,6 +391,7 @@ a:hover {
 
 .project img {
   width: 300px;
+  height: 300px;
   margin-bottom: 20px;
   margin-top: 10px;
   border: 7px double var(--color3);
@@ -486,7 +490,7 @@ a:hover {
 
 @media only screen and (max-width: 381px) {
 
-     /* LAYOUT */
+  /* LAYOUT */
 
   nav ul {
     flex-wrap: wrap;
@@ -523,16 +527,47 @@ a:hover {
     font-size: 18px;
   }
 
-   /* CONTACT */
+  /* CONTACT */
 
   .contact a {
     font-size: 17px;
   }
 
+   /* PROJECTS */
+
+   .project img {
+    width: 80vw;
+  }
+
+  .project a {
+    font-size: 22px;
+  }
+
 }
 
-@media only screen and (min-width: 850px) {
+
+@media only screen and (min-width: 1000px) {
+
+  /* PROJECTS */
+
+  .projectsContainer {
+    padding: 30px 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 100px;
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(0.25turn, var(--color1), var(--color0), var(--color1));
+    border-image-slice: 1;
+  }
+
+  .project {
+    border-image:none;
+    display: grid;
+    grid-template-rows: 50px 30px 350px 30px 100px;
+    justify-items: center;
+    align-items: start;
+  }
 
 }
-
 
