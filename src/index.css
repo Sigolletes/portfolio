@@ -65,6 +65,7 @@ a:hover {
 .titleColor {
   background: var(--gradient3);
   color: var(--color1);
+  text-align: center;
 }
 
 /* HOME ######################################################################################### */
@@ -77,6 +78,7 @@ a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   padding: 150px 30px 100px 30px;
   gap: 15px;
 }
@@ -119,14 +121,14 @@ a:hover {
   background: var(--gradient1);
   display: flex;
   flex-direction: column;
-  border-radius: 10%;
+  border-radius: 20px;
 }
 
 .someProject img {
   margin-top: 10px;
   width: 380px;
   height: 380px;
-  border-radius: 10%;
+  border-radius: 20px;
   border: 2px solid var();
 }
 
@@ -401,4 +403,136 @@ a:hover {
   color: var(--color5);
   font-size: 17px;
 }
+
+
+
+/* RESPONSIVE ######################################################################################### */
+
+@media only screen and (max-width: 688px) {
+
+  /* HOME ######################################################################################### */
+
+  .someProjectsContainer {
+    gap: 50px;
+    padding: 80px 30px;
+  }
+
+  .someProject {
+    width: clamp(200px, 70vw, 400px);
+    height: clamp(20px, 80vw, 450px);
+  }
+  
+  .someProject img {
+    width: clamp(170px, 65vw, 380px);
+    height: clamp(170px, 65vw, 380px);
+  }
+
+  .skillsContainer {
+    gap: 30px;
+    padding: 80px 30px;
+  }
+
+  /* CONTACT ######################################################################################### */
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px 30px;
+    gap: 10px;
+  }
+
+  .contact div {
+    width: 90vw;
+    height: auto;
+  }
+}
+
+
+
+@media only screen and (max-width: 455px) {
+
+  /* HOME ######################################################################################### */
+
+  .someProjectsContainer {
+    padding: 80px 10px;
+  }
+
+  .someProject {
+    width: clamp(200px, 70vw, 400px);
+    height: clamp(230px, 80vw, 450px);
+  }
+
+  .someProject a {
+    font-size: 16px;
+  }
+  
+  .projectName {
+    padding-top: 5%;
+  }
+  
+  .someProject img {
+    width: clamp(190px, 65vw, 380px);
+    height: clamp(190px, 65vw, 380px);
+  }
+
+  .skillsContainer {
+    gap: 20px;
+    padding: 50px 10px;
+  }
+}
+
+
+
+@media only screen and (max-width: 381px) {
+
+     /* LAYOUT */
+
+  nav ul {
+    flex-wrap: wrap;
+    padding: 20px 10px;
+    gap: 10px;
+  }
+
+  nav ul li {
+    font-size: 17px;
+  }
+
+  /* PRESENTATION */
+
+  .presentation {
+    padding: 120px 15px 70px 15px;
+    gap: 15px;
+  }
+
+  .presentation img {
+    width: 80vw;
+    height: 80vw;
+    margin: 20px 0 20px 0;
+  }
+
+  .presentation h1 {
+    font-size: 26px;
+  }
+
+  .presentation h2 {
+    font-size: 19px;
+  }
+
+  .presentation h4 {
+    font-size: 18px;
+  }
+
+   /* CONTACT */
+
+  .contact a {
+    font-size: 17px;
+  }
+
+}
+
+@media only screen and (min-width: 850px) {
+
+}
+
 
