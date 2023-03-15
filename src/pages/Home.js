@@ -17,7 +17,7 @@ const SomeProjects = () => {
 	return projectsList.map(project => 
 		<div className="someProject" key={project.id}>
 			<a href={project.url} target="_blank" rel="noreferrer" ><img src={require(`../images/projectImages/${project.image}`)} alt="" /></a>
-			<a href={project.url} target="_blank" rel="noreferrer" >{project.name}</a>
+			<a className="projectName" href={project.url} target="_blank" rel="noreferrer" >{project.name}</a>
 		</div>	
 	)
 }
@@ -35,25 +35,24 @@ const Home = () => {
 	return (
 		<>
 			<Presentation />
-			<div className="title gradientYellow">
+			<div className="title titleColor">
 				<h2>SOME PROJECTS</h2>
 			</div>
 			<div className="someProjectsContainer">
 				<SomeProjects />
 			</div>
-			<div className="title gradientYellow">
+			<div className="title titleColor">
 				<h2>SKILLS</h2>
 			</div>
 			<div className="skillsContainer">
 				<Skills />
 			</div>
-			<div className="title gradientYellow">
+			<div className="title titleColor">
 				<h2>CONTACT</h2>
 			</div>
 			<div className="contactContainer">
 				<Contact />
 			</div>
-			<div className="last gradientYellow"></div>
 		</>
 	);
 };

@@ -10,25 +10,26 @@
 }
 
 :root {
-  --color0: #4c3f32; /* letters */
-  --color1: #998575; /* border and scrollbar */
-  --color2: #a99b90; /* box-shadow */
-  --color3: #d1b8a3; /* scrollbar */
+  --color0: #e7edfa; /* letters */
+  --color1: #041234; /* border and scrollbar */
+  --color2: #183a90; /* box-shadow */
+  --color3: #8a9ed7; /* scrollbar */
   --color4: #ead375; /* scrollbar */
   --color5: #00f3db;
   --color6: rgb(246, 241, 235); /* background */
   --color7: #9e4459; /* a:hover */
-  --yellow: linear-gradient(90deg, rgba(224,170,71,1) 0%, rgba(222,201,118,1) 25%, rgba(238,222,159,1) 50%, rgba(222,201,118,1) 75%, rgba(224,170,71,1) 100%);
-  --silver: linear-gradient(90deg, rgba(213,213,213,1) 0%, rgba(255,255,255,1) 40%, rgba(255,255,255,1) 60%, rgba(213,213,213,1) 100%);
+  --gradient1: linear-gradient(90deg, rgba(123,131,149,1) 0%, rgba(181,188,201,1) 20%, rgba(231,237,250,1) 40%, rgba(231,237,250,1) 50%, rgba(231,237,250,1) 60%, rgba(181,188,201,1) 80%, rgba(123,131,149,1) 100%);
+  --gradient2: linear-gradient(90deg, rgba(31,51,103,1) 0%, rgba(12,30,75,1) 10%, rgba(4,18,52,1) 50%, rgba(12,30,75,1) 90%, rgba(31,51,103,1) 100%);
+  --gradient3: linear-gradient(90deg, rgba(4,18,52,1) 0%, rgba(104,126,177,1) 10%, rgba(148,166,207,1) 15%, rgba(255,255,255,1) 50%, rgba(148,166,207,1) 85%, rgba(104,126,177,1) 90%, rgba(4,18,52,1) 100%);
 }
 
 /* LAYOUT ######################################################################################### */
 
 body {
-  background: url(./images/back.jpg) no-repeat center center fixed;
+  background: url(./images/portfolio1.png) no-repeat center center fixed;
   width: 100%;
   height: auto;
-  border: 3px solid var(--color1);
+/*   border: 3px solid var(--color1); */
 }
 
 nav ul {
@@ -37,7 +38,7 @@ nav ul {
   align-content: center;
   justify-content: center;
   padding: 20px;
-  border-bottom: 10px double var(--color1);
+/*   border-bottom: 10px double var(--color1); */
 }
 
 nav ul li {
@@ -49,15 +50,16 @@ nav ul li {
 }
 
 a, a:visited {
-  color: var(--color0);
+  color: var(--color1);
 }
 
 a:hover {
-  color: var(--color7);
+  color: var(--color2);
 }
 
-.gradientYellow {
-  background: var(--yellow);
+.titleColor {
+  background: var(--gradient3);
+  color: var(--color1);
 }
 
 /* HOME ######################################################################################### */
@@ -66,21 +68,20 @@ a:hover {
 
 .presentation {
   color: var(--color0);
-  border-bottom: 3px solid var(--color1);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 30px;
+  padding: 100px 30px;
   gap: 15px;
 }
 
 .presentation img {
   width: 300px;
   height: 300px;
-  border-radius: 40%;
-  margin: 20px 0 20px 0;
-  border: 7px double var(--color1);
+  border-radius: 50%;
+  margin: 30px 0 30px 0;
+  border: 2px solid var(--color0);
 }
 
 .presentation h4 {
@@ -94,70 +95,67 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-bottom: 3px solid var(--color1);
-  background-color: #dec976;
-  color: var(--color0);
   padding: 20px;
 }
 
 .someProjectsContainer {
-  background-color: var(--color6);
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-template-rows: repeat(auto-fit, minmax(258px, 1fr));
-  justify-items: center;
-  gap: 30px;
-  padding: 30px;
-  border-bottom: 3px solid var(--color1);
+  background: var(--gradient2);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  padding: 120px 50px;
 }
 
 .someProject {
-  background: var(--color4);
-  display: grid;
-  grid-template-rows: 200px 50px;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  border: 1px solid var(--color1);
-  padding: 3px;
-  box-shadow: var(--color2) 0px 5px 15px;
+  width: 400px;
+  height: 460px;
+  background: var(--gradient1);
+  display: flex;
+  flex-direction: column;
+  border-radius: 10%;
 }
 
 .someProject img {
-  width: 200px;
-  height: 200px;
-  border: 1px solid var(--color1);
+  margin-top: 10px;
+  width: 380px;
+  height: 380px;
+  border-radius: 10%;
+  border: 2px solid var();
 }
 
 .someProject a {
   display: flex;
-  align-items: center;
   justify-content: center;
   font-size: 18px;
+}
+
+.projectName {
+  padding-top: 20px;
 }
 
 /* SKILLS */
 
 .skillsContainer {
-  background-color: var(--color6);
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
-  grid-template-rows: repeat(auto-fill, minmax(165px, 1fr));
-  justify-items: center;
-  gap: 15px;
-  padding: 25px;
-  border-bottom: 3px solid var(--color1);
+  background: var(--gradient2);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 120px 50px;
 }
 
 .skill {
-  background: var(--silver);
-  border: 4px double var(--color1);
-  border-radius: 7px;
-  padding: 10px;
+  background: var(--gradient1);
+  border-radius: 15px;
+  padding: 15px;
 }
 
 .skill img {
-  width: 100px;
-  height: 100px;
+  width: 75px;
+  height: 75px;
   object-fit: contain;
   border-radius: 5px;
 }
@@ -166,7 +164,7 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--color0);
+  color: var(--color1);
   margin-top: 5px;
 }
 
@@ -176,37 +174,41 @@ a:hover {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding: 100px 30px;
 }
 
 .contact div {
+  width: 200px;
+  height: 200px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
-  color: var(--color0);
+  justify-content: center;
+  padding: 20px 20px;
 }
 
 .contact a {
   font-size: 20px;
+  color: var(--color0);
+}
+
+.contact a:hover {
+  color: var(--color3);
 }
 
 svg {
-  filter: invert(22%) sepia(21%) saturate(647%) hue-rotate(349deg) brightness(94%) contrast(86%);
+  filter: invert(90%) sepia(13%) saturate(213%) hue-rotate(188deg) brightness(102%) contrast(96%);
   width: 70px;
   height: auto;
 }
 
-.last {
-  border-top: 3px solid var(--color1);
-  height: 70px;
-}
 
 /* SCROLLBAR ######################################################################################### */
 
 ::-webkit-scrollbar {
 	width: 20px;
 	height: 20px;
-	background-color: var(--color1);
+	background-color: var(--color2);
 	border-radius: 1vmin;
 	border: 6px solid transparent;
 	background-clip: content-box;
@@ -224,7 +226,7 @@ svg {
   }
   
   ::-webkit-scrollbar-thumb:hover {
-	background-color: var(--color4);
+	background-color: var(--color0);
   }
 
   ::-webkit-scrollbar-corner {
@@ -241,5 +243,5 @@ svg {
 }
 
 .finished-certified {
-  
+
 }

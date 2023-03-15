@@ -3,7 +3,7 @@ import { Outlet, Link } from "react-router-dom";
 const Layout = () => {
   return (
     <>
-      <nav className="gradientYellow">
+      <nav className="titleColor">
         <ul>
           <li>
             <Link to="/">Home</Link>
