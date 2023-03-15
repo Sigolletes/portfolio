@@ -1,50 +1,3 @@
-/* import { useState } from 'react';
-import courses from "../resources/courses";
-
-const RenderCourses = (center) => {
-  return center.map(course =>
-      <div key={course.name}>
-        <h3>{course.name}</h3>
-        <Certification course={course} />
-      </div>
-  );
-}
-
-const Certification = ({course}) => {
-  if (course.certification) {
-    return (
-      <div>
-        <img src={require(`../images/certifications/${course.certification}`)} alt="" />
-      </div>
-    )
-  } else {
-    return null
-  }
-}
-
-const RenderSchools = () => {
-  const showHide = () => {
-    
-  }
-
-  return courses.map(center => 
-    <div key={center.id}>
-      <h2>{center.name}</h2>
-      <button type="button" onClick={() => {showHide()}}></button>
-    </div>
-  )
-}
-
-const Roadmap = () => {
-
-  return (
-    <div className="roadmap">
-      <h1>ROADMAP</h1>
-      <RenderSchools />
-    </div>
-  );
-}; */
-
 import { ReactComponent as Foundations } from "../images/coursesImages/top-foundations.svg";
 import { ReactComponent as Intermediate } from "../images/coursesImages/top-intermediate.svg";
 
@@ -52,9 +5,9 @@ const Roadmap = () => {
   return (
     <div className="roadmap">
 
-      <div className="finished-certified">
-        <h1>Finished Courses with Certification</h1>
+      <h1>Finished Courses with Certification</h1>
 
+      <div className="finished-certified">
         <div>
           <h2>Responsive Web Design Certification</h2>
           <h3>from freeCodeCamp</h3>
@@ -94,9 +47,9 @@ const Roadmap = () => {
         </div>
       </div>
 
-      <div>
-        <h1>Other Finished Courses</h1>
+      <h1>Other Finished Courses</h1>
 
+      <div className="finished-other">
         <div>
           <div>
             <Foundations />
@@ -132,7 +85,7 @@ const Roadmap = () => {
         <div>
           <div>
             <img src={require("../images/coursesImages/cisco-ic.png")} alt="" />
-            <h2>Introducción a la Ciberseguridad</h2>
+            <h2>Introduction to Cibersecurity</h2>
           </div>
           <h3>from CISCO</h3>
           <h4>Skills:</h4>
