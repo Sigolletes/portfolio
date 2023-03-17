@@ -155,14 +155,20 @@ a, a:visited {
 }
 
 .skill {
+  width: 110px;
+  height: 120px;
+  padding: 10px;
   background: var(--gradient1);
   border-radius: 15px;
-  padding: 15px;
+  display: grid;
+  grid-template-rows: 70px 40px;
+  justify-items: center;
+  align-items: center;
 }
 
 .skill img {
-  width: 75px;
-  height: 75px;
+  width: 70px;
+  height: 70px;
   object-fit: contain;
   border-radius: 5px;
 }
@@ -182,7 +188,7 @@ a, a:visited {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 100px 30px;
+  padding: 30px;
 }
 
 .contact div {
@@ -196,7 +202,7 @@ a, a:visited {
 }
 
 .contact a {
-  font-size: 20px;
+  font-size: 18px;
   color: var(--color0);
 }
 
@@ -206,7 +212,7 @@ a, a:visited {
 
 .contact svg {
   filter: invert(90%) sepia(13%) saturate(213%) hue-rotate(188deg) brightness(102%) contrast(96%);
-  width: 70px;
+  width: 60px;
   height: auto;
 }
 
@@ -256,7 +262,6 @@ background: rgba(0,0,0,0);
 }
 
 .roadmap h1 {
-  background: url(./images/portfolio2.png);
   padding: 40px 20px;
   color: var(--color0);
   text-align: center;
@@ -407,8 +412,53 @@ background: rgba(0,0,0,0);
 
 /* RESPONSIVE ####################################################### */
 
+@media only screen and (max-width: 1000px) {
+/* SKILLS ----------------------------------------------- */
+
+  .skillsContainer {
+    gap: 30px;
+    padding: 60px 30px;
+  }
+
+  .skill {
+    width: 90px;
+    height: 110px;
+    grid-template-rows: 60px 50px;
+  }
+
+  .skill img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .skill p {
+    font-size: 14px;
+    margin-top: 3px;
+  }
+
+/* CONTACT ########################################################## */
+
+  .contact {
+    padding: 60px 30px;
+  }
+
+  .contact div {
+    width: 100px;
+    height: 100px;
+    padding: 10px 10px;
+  }
+
+  .contact a {
+    font-size: 18px;
+  }
+
+  .contact svg {
+    width: 50px;
+  }
+}
+
 @media only screen and (max-width: 729px) {
-/* SOME PROJECTS ----------------------------------------------- */
+/* SOME PROJECTS ---------------------------------------- */
 
   .someProjectsContainer {
     gap: 15px;
@@ -433,34 +483,33 @@ background: rgba(0,0,0,0);
   .projectName {
     padding-top: 6px;
   }
-}
 
-@media only screen and (max-width: 688px) {
 /* SKILLS ----------------------------------------------- */
 
   .skillsContainer {
-    gap: 30px;
-    padding: 80px 30px;
+    gap: 20px;
+    padding: 50px 20px;
   }
 
-/* CONTACT ############################################################ */
-
-  .contact {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 60px 30px;
-    gap: 10px;
+  .skill {
+    width: 80px;
+    height: 100px;
+    grid-template-rows: 55px 45px;
   }
 
-  .contact div {
-    width: 90vw;
-    height: auto;
+  .skill img {
+    width: 55px;
+    height: 55px;
+  }
+
+  .skill p {
+    font-size: 13px;
+    margin-top: 0px;
   }
 }
 
 @media only screen and (max-width: 607px) {
-/* SOME PROJECTS ----------------------------------------------- */
+/* SOME PROJECTS ---------------------------------------- */
   
   .someProjectsContainer {
     gap: 13px;
@@ -476,10 +525,31 @@ background: rgba(0,0,0,0);
     width: 150px;
     height: 150px;
   }
+
+/* SKILLS ----------------------------------------------- */
+
+  .skillsContainer {
+    gap: 13px;
+    padding: 30px 13px;
+  }
+
+/* CONTACT ########################################################## */
+
+  .contact {
+    justify-content: space-between;
+  }
+
+  .contact a {
+    font-size: 15px;
+  }
+
+  .contact svg {
+    width: 45px;
+  }
 }
 
 @media only screen and (max-width: 579px) {
-/* ROADMAP ########################################################### */
+/* ROADMAP ########################################################## */
 
   .roadmap h1 {
     background: none;
@@ -498,16 +568,22 @@ background: rgba(0,0,0,0);
 }
 
 @media only screen and (max-width: 455px) {
-/* SKILLS ----------------------------------------------- */
+/* CONTACT ########################################################## */
 
-  .skillsContainer {
-    gap: 20px;
-    padding: 50px 10px;
+  .contact {
+    flex-direction: column;
+    padding: 30px 10px;
+    justify-content: space-evenly;
+    gap: 10px;
+  }
+
+  .contact a {
+    font-size: 14px;
   }
 }
 
 @media only screen and (max-width: 381px) {
-/* LAYOUT ############################################################ */
+/* LAYOUT ########################################################### */
 
   nav ul {
     flex-wrap: wrap;
@@ -519,7 +595,8 @@ background: rgba(0,0,0,0);
     font-size: 17px;
   }
 
-/* PRESENTATION ----------------------------------------------- */
+/* HOME ############################################################# */
+/* PRESENTATION ----------------------------------------- */
 
   .presentation {
     padding: 120px 15px 70px 15px;
@@ -544,7 +621,7 @@ background: rgba(0,0,0,0);
     font-size: 18px;
   }
 
-/* SOME PROJECTS ----------------------------------------------- */
+/* SOME PROJECTS ---------------------------------------- */
 
   .title {
     font-size: 13px;
@@ -569,13 +646,13 @@ background: rgba(0,0,0,0);
     font-size: 14px;
   }
 
-/* CONTACT ############################################################ */
+/* CONTACT ########################################################## */
 
   .contact a {
     font-size: 17px;
   }
 
-/* PROJECTS ########################################################### */
+/* PROJECTS ######################################################### */
 
    .project img {
     width: 80vw;
@@ -587,7 +664,7 @@ background: rgba(0,0,0,0);
 }
 
 @media only screen and (min-width: 1000px) {
-/* SOME PROJECTS ----------------------------------------------- */
+/* SOME PROJECTS ---------------------------------------- */
 
   .someProjectsContainer {
     gap: 40px;
@@ -612,14 +689,20 @@ background: rgba(0,0,0,0);
     padding-top: 13px;
   }
 
+/* CONTACT ########################################################## */
 
-/* ROADMAP ########################################################### */
+  .contact {
+    justify-content: center;
+    gap: 50px;
+  }
+
+/* ROADMAP ########################################################## */
 
   .finished-certified > div {
     justify-items: stretch;
   }
 
-/* PROJECTS ########################################################### */
+/* PROJECTS ######################################################### */
 
   .projectsContainer {
     padding: 30px 50px;
@@ -642,16 +725,7 @@ background: rgba(0,0,0,0);
 }
 
 @media only screen and (min-width: 1220px) {
-
-/* CONTACT ############################################################ */
-
-  .contact {
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 100px 30px;
-  }
-
-/* ROADMAP ########################################################### */
+/* ROADMAP ########################################################## */
 
   .finished-certified, .finished-other {
     display: grid;
