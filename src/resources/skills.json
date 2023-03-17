@@ -1,37 +1,41 @@
-[
-  {
-    "id": 0,
-    "name": "HTML",
-    "image": "html.png"
-  },
-  {
-    "id": 1,
-    "name": "CSS",
-    "image": "css.png"
-  },
-  {
-    "id": 2,
-    "name": "JavaScript",
-    "image": "js.png"
-  },
-  {
-    "id": 3,
-    "name": "React",
-    "image": "react.png"
-  },
-  {
-    "id": 4,
-    "name": "Node",
-    "image": "node.png"
-  },
-  {
-    "id": 5,
-    "name": "Express",
-    "image": "express.png"
-  },
-  {
-    "id": 6,
-    "name": "MongoDB",
-    "image": "mongodb.png"
-  }
-]
+{
+  "frontend": [
+    {
+      "id": 0,
+      "name": "HTML",
+      "image": "html.png"
+    },
+    {
+      "id": 1,
+      "name": "CSS",
+      "image": "css.png"
+    },
+    {
+      "id": 2,
+      "name": "JavaScript",
+      "image": "js.png"
+    },
+    {
+      "id": 3,
+      "name": "React",
+      "image": "react.png"
+    }
+  ],
+  "backend": [
+    {
+      "id": 4,
+      "name": "Node",
+      "image": "node.png"
+    },
+    {
+      "id": 5,
+      "name": "Express",
+      "image": "express.png"
+    },
+    {
+      "id": 6,
+      "name": "MongoDB",
+      "image": "mongodb.png"
+    }
+  ]
+}

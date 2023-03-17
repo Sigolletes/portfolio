@@ -10,12 +10,12 @@
 }
 
 :root {
-  --color0: #e7edfa; 
-  --color1: #041234; 
-  --color2: #183a90; 
-  --color3: #8a9ed7; 
+  --color0: rgb(231, 237, 250); 
+  --color1: rgb(4, 18, 52); 
+  --color2: rgb(24, 58, 144); 
+  --color3: rgb(138, 158, 215); 
   --color4: rgba(4, 18, 52, 0.8); 
-  --color5: #b1bfe3; 
+  --color5: rgb(177, 191, 227); 
 
   --gradient1: linear-gradient(90deg, rgba(123,131,149,1) 0%, rgba(181,188,201,1) 20%, rgba(231,237,250,1) 40%, rgba(231,237,250,1) 50%, rgba(231,237,250,1) 60%, rgba(181,188,201,1) 80%, rgba(123,131,149,1) 100%);
   
@@ -142,6 +142,50 @@ a, a:visited {
   transform: scale(1.02);
 }
 
+/* COURSES ---------------------------------------------- */
+
+.homeCourses {
+  background-color: var(--color4);
+  color: var(--color0);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  padding: 50px 20px;
+  gap: 20px;
+}
+
+.homeCourses > div {
+  width: 200px;
+  height: 250px;
+  display: grid;
+  grid-template-rows: 150px 35px 30px;
+  padding: 10px;
+  justify-items: center;
+  align-items: center;
+}
+
+.homeCourses img {
+  width: 130px;
+  height: 130px;
+}
+
+.homeCourses svg {
+  width: 130px;
+  height: 130px;
+}
+
+.homeCourses h2 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.homeCourses h3 {
+  color: var(--color5);
+  font-size: 16px;
+  font-weight: 300;
+}
+
 /* SKILLS ----------------------------------------------- */
 
 .skillsContainer {
@@ -152,6 +196,26 @@ a, a:visited {
   align-items: center;
   gap: 50px;
   padding: 120px 50px;
+}
+
+.skillsContainer:not(:last-child) {
+  border-bottom: 2px solid transparent;
+  border-image: linear-gradient(0.25turn, var(--color1), var(--color0), var(--color1));
+  border-image-slice: 1;
+}
+
+.skillsType {
+  background: var(--color4);
+  color: var(--color0);
+  border-bottom: 2px solid transparent;
+  border-image: linear-gradient(0.25turn, var(--color1), var(--color0), var(--color1));
+  border-image-slice: 1;
+  font-size: 26px;
+  font-weight: 300;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .skill {
@@ -484,6 +548,29 @@ background: rgba(0,0,0,0);
     padding-top: 6px;
   }
 
+/* COURSES ---------------------------------------------- */
+
+  .homeCourses {
+    padding: 40px 15px;
+    gap: 15px;
+  }
+
+  .homeCourses > div {
+    width: 170px;
+    height: 230px;
+    grid-template-rows: 140px 35px 30px;
+  }
+
+  .homeCourses img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .homeCourses svg {
+    width: 120px;
+    height: 120px;
+  }
+
 /* SKILLS ----------------------------------------------- */
 
   .skillsContainer {
@@ -524,6 +611,18 @@ background: rgba(0,0,0,0);
   .someProject img {
     width: 150px;
     height: 150px;
+  }
+
+/* COURSES ---------------------------------------------- */
+
+  .homeCourses {
+    padding: 30px 10px;
+    gap: 10px;
+  }
+
+  .homeCourses > div {
+    width: 160px;
+    height: 220px;
   }
 
 /* SKILLS ----------------------------------------------- */
@@ -668,7 +767,7 @@ background: rgba(0,0,0,0);
 
   .someProjectsContainer {
     gap: 40px;
-    padding: 60px 40px;
+    padding: 100px 40px;
   }
   
   .someProject {
@@ -687,6 +786,37 @@ background: rgba(0,0,0,0);
   
   .projectName {
     padding-top: 13px;
+  }
+
+/* COURSES ---------------------------------------------- */
+
+  .homeCourses {
+    padding: 100px 40px;
+    gap: 40px;
+  }
+
+  .homeCourses > div {
+    width: 250px;
+    height: 290px;
+    grid-template-rows: 190px 45px 35px;
+  }
+
+  .homeCourses img {
+    width: 165px;
+    height: 165px;
+  }
+
+  .homeCourses svg {
+    width: 165px;
+    height: 165px;
+  }
+
+  .homeCourses h2 {
+    font-size: 19px;
+  }
+
+  .homeCourses h3 {
+    font-size: 17px;
   }
 
 /* CONTACT ########################################################## */
