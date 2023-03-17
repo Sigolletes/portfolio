@@ -22,7 +22,7 @@
   --gradient3: linear-gradient(90deg, rgba(4,18,52,1) 0%, rgba(104,126,177,1) 10%, rgba(148,166,207,1) 15%, rgba(255,255,255,1) 50%, rgba(148,166,207,1) 85%, rgba(104,126,177,1) 90%, rgba(4,18,52,1) 100%);
 }
 
-/* LAYOUT ######################################################################################### */
+/* LAYOUT ########################################################### */
 
 body {
   background: url(./images/portfolio1.png) no-repeat center center fixed;
@@ -68,9 +68,8 @@ a, a:visited {
   text-align: center;
 }
 
-/* HOME ######################################################################################### */
-
-/* PRESENTATION */
+/* HOME ############################################################# */
+/* PRESENTATION ----------------------------------------- */
 
 .presentation {
   color: var(--color0);
@@ -79,7 +78,7 @@ a, a:visited {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 150px 30px 100px 30px;
+  padding: 150px 30px 80px 30px;
   gap: 15px;
 }
 
@@ -91,12 +90,7 @@ a, a:visited {
   border: 2px solid var(--color0);
 }
 
-.presentation h4 {
-  font-size: 20px;
-  word-spacing: 15px;
-}
-
-/* SOME PROJECTS */
+/* SOME PROJECTS ---------------------------------------- */
 
 .title {
   display: flex;
@@ -111,13 +105,13 @@ a, a:visited {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 70px;
-  padding: 120px 50px;
+  gap: 20px;
+  padding: 50px 20px;
 }
 
 .someProject {
-  width: 400px;
-  height: 460px;
+  width: 210px;
+  height: 240px;
   background: var(--gradient1);
   display: flex;
   flex-direction: column;
@@ -125,9 +119,9 @@ a, a:visited {
 }
 
 .someProject img {
-  margin-top: 10px;
-  width: 380px;
-  height: 380px;
+  margin-top: 5px;
+  width: 200px;
+  height: 200px;
   border-radius: 20px;
   border: 2px solid var();
 }
@@ -135,11 +129,11 @@ a, a:visited {
 .someProject a {
   display: flex;
   justify-content: center;
-  font-size: 18px;
+  font-size: 17px;
 }
 
 .projectName {
-  padding-top: 20px;
+  padding-top: 7px;
   text-align: center;
 }
 
@@ -148,7 +142,7 @@ a, a:visited {
   transform: scale(1.02);
 }
 
-/* SKILLS */
+/* SKILLS ----------------------------------------------- */
 
 .skillsContainer {
   background-color: var(--color4);
@@ -181,7 +175,7 @@ a, a:visited {
   margin-top: 5px;
 }
 
-/* CONTACT ######################################################################################### */
+/* CONTACT ########################################################## */
 
 .contact {
   background-color: var(--color4);
@@ -216,40 +210,40 @@ a, a:visited {
   height: auto;
 }
 
-
-/* SCROLLBAR ######################################################################################### */
+/* SCROLLBAR ######################################################## */
 
 ::-webkit-scrollbar {
 	width: 20px;
 	height: 20px;
 	background-color: var(--color2);
-	border-radius: 1vmin;
+	border-radius: 5px;
 	border: 6px solid transparent;
 	background-clip: content-box;
-  }
+  border-radius: 20px;
+}
 
-  ::-webkit-scrollbar-track {
-	background-color: transparent;
-  }
+::-webkit-scrollbar-track {
+  background-color: transparent;
+  border-radius: 20px;
+}
 
-  ::-webkit-scrollbar-thumb {
-	background-color: var(--color3);
-	border-radius: 120px;
-	border: 6px solid transparent;
-	background-clip: content-box;
-  }
-  
-  ::-webkit-scrollbar-thumb:hover {
-	background-color: var(--color0);
-  }
+::-webkit-scrollbar-thumb {
+background-color: var(--color3);
+border-radius: 120px;
+border: 8px solid transparent;
+background-clip: content-box;
+border-radius: 20px;
+}
 
-  ::-webkit-scrollbar-corner {
-	background: rgba(0,0,0,0);
-  }
+::-webkit-scrollbar-thumb:hover {
+background-color: var(--color0);
+}
 
+::-webkit-scrollbar-corner {
+background: rgba(0,0,0,0);
+}
 
-
-/* ROADMAP ######################################################################################### */
+/* ROADMAP ########################################################## */
 
 .roadmap {
   padding-top: 70px;
@@ -354,8 +348,7 @@ a, a:visited {
   height: auto;
 }
 
-
-/* PROJECTS ######################################################################################### */
+/* PROJECTS ######################################################### */
 
 .projects {
   padding-top: 70px;
@@ -367,7 +360,6 @@ a, a:visited {
 }
 
 .projects h1 {
-  background: url(./images/portfolio2.png);
   padding: 40px 20px;
   color: var(--color0);
   text-align: center;
@@ -413,35 +405,45 @@ a, a:visited {
   font-size: 17px;
 }
 
+/* RESPONSIVE ####################################################### */
 
-
-/* RESPONSIVE ######################################################################################### */
-
-@media only screen and (max-width: 688px) {
-
-  /* HOME ######################################################################################### */
+@media only screen and (max-width: 729px) {
+/* SOME PROJECTS ----------------------------------------------- */
 
   .someProjectsContainer {
-    gap: 50px;
-    padding: 80px 30px;
+    gap: 15px;
+    padding: 40px 15px;
   }
-
+  
   .someProject {
-    width: clamp(200px, 70vw, 400px);
-    height: clamp(20px, 80vw, 450px);
+    width: 176px;
+    height: 205px;
   }
   
   .someProject img {
-    width: clamp(170px, 65vw, 380px);
-    height: clamp(170px, 65vw, 380px);
+    margin-top: 3px;
+    width: 170px;
+    height: 170px;
   }
+  
+  .someProject a {
+    font-size: 15px;
+  }
+  
+  .projectName {
+    padding-top: 6px;
+  }
+}
+
+@media only screen and (max-width: 688px) {
+/* SKILLS ----------------------------------------------- */
 
   .skillsContainer {
     gap: 30px;
     padding: 80px 30px;
   }
 
-  /* CONTACT ######################################################################################### */
+/* CONTACT ############################################################ */
 
   .contact {
     display: flex;
@@ -457,10 +459,27 @@ a, a:visited {
   }
 }
 
+@media only screen and (max-width: 607px) {
+/* SOME PROJECTS ----------------------------------------------- */
+  
+  .someProjectsContainer {
+    gap: 13px;
+    padding: 30px 13px;
+  }
+  
+  .someProject {
+    width: 156px;
+    height: 185px;
+  }
+  
+  .someProject img {
+    width: 150px;
+    height: 150px;
+  }
+}
 
 @media only screen and (max-width: 579px) {
-
-  /* ROADMAP */
+/* ROADMAP ########################################################### */
 
   .roadmap h1 {
     background: none;
@@ -476,36 +495,10 @@ a, a:visited {
   .finished-certified img {
     margin-top: 30px;
   }
-
 }
 
-
-
 @media only screen and (max-width: 455px) {
-
-  /* HOME ######################################################################################### */
-
-  .someProjectsContainer {
-    padding: 80px 10px;
-  }
-
-  .someProject {
-    width: clamp(200px, 70vw, 400px);
-    height: clamp(230px, 80vw, 450px);
-  }
-
-  .someProject a {
-    font-size: 16px;
-  }
-  
-  .projectName {
-    padding-top: 5%;
-  }
-  
-  .someProject img {
-    width: clamp(190px, 65vw, 380px);
-    height: clamp(190px, 65vw, 380px);
-  }
+/* SKILLS ----------------------------------------------- */
 
   .skillsContainer {
     gap: 20px;
@@ -513,11 +506,8 @@ a, a:visited {
   }
 }
 
-
-
 @media only screen and (max-width: 381px) {
-
-  /* LAYOUT */
+/* LAYOUT ############################################################ */
 
   nav ul {
     flex-wrap: wrap;
@@ -529,7 +519,7 @@ a, a:visited {
     font-size: 17px;
   }
 
-  /* PRESENTATION */
+/* PRESENTATION ----------------------------------------------- */
 
   .presentation {
     padding: 120px 15px 70px 15px;
@@ -554,13 +544,38 @@ a, a:visited {
     font-size: 18px;
   }
 
-  /* CONTACT */
+/* SOME PROJECTS ----------------------------------------------- */
+
+  .title {
+    font-size: 13px;
+  } 
+  
+  .someProjectsContainer {
+    gap: 10px;
+    padding: 20px 10px;
+  }
+  
+  .someProject {
+    width: 146px;
+    height: 175px;
+  }
+  
+  .someProject img {
+    width: 140px;
+    height: 140px;
+  }
+
+  .someProject a {
+    font-size: 14px;
+  }
+
+/* CONTACT ############################################################ */
 
   .contact a {
     font-size: 17px;
   }
 
-   /* PROJECTS */
+/* PROJECTS ########################################################### */
 
    .project img {
     width: 80vw;
@@ -569,13 +584,42 @@ a, a:visited {
   .project a {
     font-size: 22px;
   }
-
 }
 
-
 @media only screen and (min-width: 1000px) {
+/* SOME PROJECTS ----------------------------------------------- */
 
-  /* PROJECTS */
+  .someProjectsContainer {
+    gap: 40px;
+    padding: 60px 40px;
+  }
+  
+  .someProject {
+    width: 260px;
+    height: 305px;
+  }
+  
+  .someProject img {
+    width: 250px;
+    height: 250px;
+  }
+  
+  .someProject a {
+    font-size: 19px;
+  }
+  
+  .projectName {
+    padding-top: 13px;
+  }
+
+
+/* ROADMAP ########################################################### */
+
+  .finished-certified > div {
+    justify-items: stretch;
+  }
+
+/* PROJECTS ########################################################### */
 
   .projectsContainer {
     padding: 30px 50px;
@@ -595,19 +639,19 @@ a, a:visited {
     justify-items: center;
     align-items: start;
   }
-
-  /* ROADMAP */
-
-  .finished-certified > div {
-    justify-items: stretch;
-  }
-
 }
-
 
 @media only screen and (min-width: 1220px) {
 
-  /* ROADMAP */
+/* CONTACT ############################################################ */
+
+  .contact {
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 100px 30px;
+  }
+
+/* ROADMAP ########################################################### */
 
   .finished-certified, .finished-other {
     display: grid;
@@ -694,14 +738,4 @@ a, a:visited {
   .finished-other img {
     width: 150px;
   }
-
-
-  /* CONTACT */
-
-  .contact {
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 100px 30px;
-  }
-
 }

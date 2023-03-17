@@ -8,7 +8,6 @@ const Presentation = () => {
 			<h1>Hi! My name is Judit</h1>
 			<h2>I'm a Full Stack web developer based in Spain</h2>
 			<img src={require("../images/coding.jpg")} alt="" />
-			<h4>English Spanish Catalan</h4>
 		</div>
 	)
 }

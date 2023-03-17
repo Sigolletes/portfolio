@@ -35,7 +35,7 @@ const Roadmap = () => {
 
         <div>
           <h2>CS50's Understanding Technology</h2>
-          <h3>from CS50</h3>
+          <h3>from Harvard University</h3>
           <h4>Skills:</h4>
           <ul>
             <li>Fundamentals of Internet</li>
@@ -79,7 +79,6 @@ const Roadmap = () => {
             <li>HTML</li>
             <li>CSS</li>
             <li>JavaScript</li>
-            <li>SVG</li>
           </ul>
         </div>
 

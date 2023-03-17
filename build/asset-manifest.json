@@ -1,27 +1,32 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.80062300.css",
-    "main.js": "/portfolio/static/js/main.64f240c5.js",
+    "main.css": "/portfolio/static/css/main.4d4ce9b7.css",
+    "main.js": "/portfolio/static/js/main.0c4e2e73.js",
+    "static/media/portfolio1.png": "/portfolio/static/media/portfolio1.21c8ab3eaf24b8901333.png",
+    "static/media/portfolio2.png": "/portfolio/static/media/portfolio2.b0bc649e7acfbefb391f.png",
     "static/media/phonebook.png": "/portfolio/static/media/phonebook.e1e2086b8200b07e5599.png",
     "static/media/CS50-UT.png": "/portfolio/static/media/CS50-UT.1b6f13e8b0c87b238dbf.png",
-    "static/media/tree.jpg": "/portfolio/static/media/tree.9839032edb3c295913f9.jpg",
     "static/media/mongodb.png": "/portfolio/static/media/mongodb.6170bacefd8a1f69ca74.png",
     "static/media/node.png": "/portfolio/static/media/node.d980d9636ace07ad3dde.png",
     "static/media/express.png": "/portfolio/static/media/express.915b89629a5fefdb6ca0.png",
-    "static/media/back.jpg": "/portfolio/static/media/back.c6125bfd123f0c6fd73b.jpg",
+    "static/media/freeCodeCamp_JavaScriptAlgorithms.png": "/portfolio/static/media/freeCodeCamp_JavaScriptAlgorithms.bf0251980ffd158fe8a7.png",
     "static/media/caesar.png": "/portfolio/static/media/caesar.e849da13d384e3af5dbd.png",
+    "static/media/freeCodeCamp_ResponsiveWebDesign.png": "/portfolio/static/media/freeCodeCamp_ResponsiveWebDesign.cfdbda4a87822e0d279d.png",
     "static/media/coding.jpg": "/portfolio/static/media/coding.cf8c1de80d93d398aa4b.jpg",
     "static/media/library.png": "/portfolio/static/media/library.02794293953861d513dd.png",
+    "static/media/cisco-ic.png": "/portfolio/static/media/cisco-ic.0e2e5e761b64a0b9a4d5.png",
+    "static/media/top-intermediate.svg": "/portfolio/static/media/top-intermediate.333e3505180f271560189a1be5703c7c.svg",
     "static/media/react.png": "/portfolio/static/media/react.6db2265afd7a1041c977.png",
+    "static/media/top-foundations.svg": "/portfolio/static/media/top-foundations.fdc726d609bc06bf981fecb5b7ff7282.svg",
     "static/media/github.svg": "/portfolio/static/media/github.550985caaa8859d4b95ffb977ce9d9af.svg",
     "index.html": "/portfolio/index.html",
     "static/media/linkedin.svg": "/portfolio/static/media/linkedin.eaccfc4b453ff94aff73f6a0d1b53511.svg",
     "static/media/email.svg": "/portfolio/static/media/email.1f0b18acc284e46852dbe88c31d7b460.svg",
-    "main.80062300.css.map": "/portfolio/static/css/main.80062300.css.map",
-    "main.64f240c5.js.map": "/portfolio/static/js/main.64f240c5.js.map"
+    "main.4d4ce9b7.css.map": "/portfolio/static/css/main.4d4ce9b7.css.map",
+    "main.0c4e2e73.js.map": "/portfolio/static/js/main.0c4e2e73.js.map"
   },
   "entrypoints": [
-    "static/css/main.80062300.css",
-    "static/js/main.64f240c5.js"
+    "static/css/main.4d4ce9b7.css",
+    "static/js/main.0c4e2e73.js"
   ]
 }
