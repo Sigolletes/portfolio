@@ -3,6 +3,7 @@
     "id": 0,
     "name": "PHONEBOOK",
     "url": "https://part3-2.onrender.com/",
+    "code": "https://github.com/Sigolletes/fullStackOpen_part3_2",
     "course": "Full Stack Open",
     "image": "phonebook.png",
     "technologies": [
@@ -17,6 +18,7 @@
     "id": 1,
     "name": "LIBRARY",
     "url": "https://sigolletes.github.io/library_2/",
+    "code": "https://github.com/Sigolletes/library_2",
     "course": "Odin Project",
     "image": "library.png",
     "technologies": [
@@ -27,10 +29,11 @@
   },
   { 
     "id": 2,
-    "name": "CAESAR CIPHER",
-    "url": "https://sigolletes.github.io/webpage_exerciseCS50/",
-    "course": "CS50",
-    "image": "caesar.png",
+    "name": "CALCULATOR",
+    "url": "https://sigolletes.github.io/calculator_odin/",
+    "code": "https://github.com/Sigolletes/calculator_odin",
+    "course": "Odin Project",
+    "image": "calculator.png",
     "technologies": [
         "HTML",
         "CSS",
