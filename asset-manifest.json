@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.0b40acd8.css",
-    "main.js": "/portfolio/static/js/main.d95bfcc4.js",
+    "main.js": "/portfolio/static/js/main.2d3ab971.js",
     "static/media/portfolio1.png": "/portfolio/static/media/portfolio1.21c8ab3eaf24b8901333.png",
+    "static/media/phonebook.png": "/portfolio/static/media/phonebook.4f82a9ae703d7b96d851.png",
     "static/media/library.png": "/portfolio/static/media/library.2728b1b8df83c2fdb831.png",
-    "static/media/phonebook.png": "/portfolio/static/media/phonebook.e1e2086b8200b07e5599.png",
     "static/media/CS50-UT.png": "/portfolio/static/media/CS50-UT.1b6f13e8b0c87b238dbf.png",
     "static/media/mongodb.png": "/portfolio/static/media/mongodb.6170bacefd8a1f69ca74.png",
+    "static/media/calculator.png": "/portfolio/static/media/calculator.a2a29e85829fb2499a22.png",
     "static/media/node.png": "/portfolio/static/media/node.d980d9636ace07ad3dde.png",
     "static/media/express.png": "/portfolio/static/media/express.915b89629a5fefdb6ca0.png",
     "static/media/freeCodeCamp_JavaScriptAlgorithms.png": "/portfolio/static/media/freeCodeCamp_JavaScriptAlgorithms.bf0251980ffd158fe8a7.png",
@@ -14,7 +15,6 @@
     "static/media/freeCodeCamp_ResponsiveWebDesign.png": "/portfolio/static/media/freeCodeCamp_ResponsiveWebDesign.cfdbda4a87822e0d279d.png",
     "static/media/coding.jpg": "/portfolio/static/media/coding.cf8c1de80d93d398aa4b.jpg",
     "static/media/cisco-ic.png": "/portfolio/static/media/cisco-ic.0e2e5e761b64a0b9a4d5.png",
-    "static/media/calculator.png": "/portfolio/static/media/calculator.04282d673e094c687b69.png",
     "static/media/top-intermediate.svg": "/portfolio/static/media/top-intermediate.333e3505180f271560189a1be5703c7c.svg",
     "static/media/react.png": "/portfolio/static/media/react.6db2265afd7a1041c977.png",
     "static/media/top-foundations.svg": "/portfolio/static/media/top-foundations.fdc726d609bc06bf981fecb5b7ff7282.svg",
@@ -23,10 +23,10 @@
     "static/media/linkedin.svg": "/portfolio/static/media/linkedin.eaccfc4b453ff94aff73f6a0d1b53511.svg",
     "static/media/email.svg": "/portfolio/static/media/email.1f0b18acc284e46852dbe88c31d7b460.svg",
     "main.0b40acd8.css.map": "/portfolio/static/css/main.0b40acd8.css.map",
-    "main.d95bfcc4.js.map": "/portfolio/static/js/main.d95bfcc4.js.map"
+    "main.2d3ab971.js.map": "/portfolio/static/js/main.2d3ab971.js.map"
   },
   "entrypoints": [
     "static/css/main.0b40acd8.css",
-    "static/js/main.d95bfcc4.js"
+    "static/js/main.2d3ab971.js"
   ]
 }
